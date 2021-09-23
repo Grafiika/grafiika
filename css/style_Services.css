@@ -1,9 +1,20 @@
-
+@font-face {
+  font-family: "outfitBlack";
+  src: url("../ttf/Outfit-Black.ttf");
+}
+@font-face {
+  font-family: "outfitRegular";
+  src: url("../ttf/Outfit-Regular.ttf");
+}
+@font-face {
+  font-family: "outfitBold";
+  src: url("../ttf/Outfit-Bold.ttf");
+}
 
 body {
   background: #ecf1f7;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: outfitRegular, sans-serif;
 }
 
 a {
@@ -30,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: outfitBlack;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -230,6 +241,7 @@ h6 {
   font-weight: 700;
   white-space: nowrap;
   margin-top: 20px;
+  font-family: outfitBlack;
 }
 #intro .intro-info h3 {
   color: #320065;
@@ -237,6 +249,7 @@ h6 {
   font-size: 45px;
   font-weight: 700;
   white-space: nowrap;
+  font-family: outfitBlack;
 }
 
 /* #intro .intro-info h2 span {
@@ -400,7 +413,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #b0bac5;
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -408,7 +421,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -489,12 +502,12 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
+  font-size: 44px;
   color: #320065;
   text-align: center;
   font-weight: 700;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: outfitBlack;
 }
 
 .section-header p {
@@ -580,6 +593,17 @@ h6 {
   margin-bottom: 0;
   text-align: left;
   color: #320065;
+}
+#goworks{
+  text-align: center;
+  font-weight: 900;
+}
+#goworks .gotoworks {
+  color: #320065;
+  
+  white-space: nowrap;
+  font-family: outfitRegular;
+  
 }
 
 /* Our Expertise Section
@@ -989,12 +1013,14 @@ padding-bottom: 3rem !important; */
     margin-bottom: 0px;
     margin-top: 100px;
     white-space: inherit;
+    font-family: outfitBlack;
   }
   #intro .intro-info h3 {
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
     white-space: inherit;
+    font-family: outfitBlack;
   }
   .section-header p {
     width: 100%;
@@ -1013,6 +1039,7 @@ padding-bottom: 3rem !important; */
   #testimonials .testimonial-item h4,
   #testimonials .testimonial-item p {
     margin-left: 0;
+    font-family: outfitBlack;
   }
 }
 

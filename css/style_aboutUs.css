@@ -275,10 +275,6 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
 
 .main-nav,
 .main-nav * {
@@ -402,7 +398,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #b0bac5;
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -410,7 +406,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #fff;
   text-decoration: none;
 }
 
