@@ -50,10 +50,21 @@
   </head>
   <body>
       <style>
-        *{
+       @font-face {
+         font-family: "outfitBlack";
+         src: url("./ttf/Outfit-Black.ttf");
+       }
+       @font-face {
+         font-family: "outfitRegular";
+         src: url("./ttf/Outfit-Regular.ttf");
+       }
+       *{
           margin: 0;
           padding: 0;
           
+        }
+        b{
+          font-family: outfitBlack;
         }
         .bc{
           color: #320065;
@@ -61,6 +72,7 @@
         body{
           background-color: #ECF1F7;
           color: #320065;
+          font-family: outfitRegular;
         }
      .header{
        
@@ -120,11 +132,11 @@
         top: 0vh;
         left: 1vw;}
         #n1{
-        font-size: 15px;
+        font-size: 13px;
         padding-left: 20px;
       }
       #n2{
-        font-size: 13px;
+        font-size: 16px;
         padding-left: 20px;
       }
       #n3{ padding-top: 0px;
@@ -141,11 +153,11 @@
         
       
       #n1{
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 20px;
       }
       #n2{
-        font-size: 13px;
+        font-size: 17px;
         padding-left: 20px;
       }
       #n3{ padding-top: 4px;
@@ -204,7 +216,7 @@
         left: 5vw;
       } 
       #n1{
-        font-size: 28px;
+        font-size: 25px;
         padding-bottom: 25px;
       }
       #n2{
@@ -215,10 +227,11 @@
         
         font-size: 14px;
       }  #n4{
-        font-size:14px ;
+        font-size:17px ;
       }
       #n5{
-        font-size: 14px;
+        font-size: 19px;
+        margin-left: 10px;
       }
        }
        
@@ -430,7 +443,7 @@ button:focus {
         background-position: center;
         background-size: cover;
         width: 380px;
-        height: 355px;
+        height: 280px;
       }
 
       .swiper-slide img {
@@ -803,7 +816,7 @@ padding-bottom: 3rem !important; */
             <a class="nav-link active" aria-current="page" href="./our_works.html" style="margin-right: 30px;">OUR WORK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html"style="margin-right: 30px;">CONTACT US</a>
+            <a class="nav-link active" href="./contact.html"style="margin-right: 30px;">CONTACT US</a>
           </li>
             </ul>
           </li>
@@ -817,15 +830,15 @@ padding-bottom: 3rem !important; */
   <div class="bottom-left text-white"style="text-align: justify;"><h3 id=n1 class="text-white">Welcome to <b class="text-white" >grafiika</b></h3>
    <h1 id=n2><b class="text-white">your one solution for<br> every design problem</b></h1>
    <div class="container" style="text-align: justify;"><p class="text-white  " id=n3 ">Just like Music liberates you after a tiresome Day<br>Grafiika too, liberates you from every Design Problem.<br><br>Be it Branding a Logo, Video Editing,<br> Constructing a Website or Visualising and Advertising,<br> Grafiika is just "One Tap" distant from you!</p><br>
-    <a id=n4 href="#" class="btn btn-light btn-sm" style="border-radius: 20px;"><b>schedule a call</b></a>
-    <a id=n5 href="#" class="btn  btn-sm" style="border-radius: 20px; background-image: linear-gradient(  #171756,#54185E);"><b class="text-white">our-works</b></a></div>
+    <a id=n4 href="./contact.html" class="btn btn-light btn-sm bc" style="border-radius: 20px;"><strong>schedule a call</strong></a>
+    <a id=n5 href="./our_works.html" class="btn  btn-sm text-white" style="border-radius: 20px; background-image: linear-gradient(  #171756,#54185E);">our-works</a></div>
 </div></div>
 <div class="container">
   <div class="about1">
     <img src="./images/component.webp" alt="" srcset="" style="max-width: 50%;">
    <div class="b1" style="max-width: 50%;"><h1  style="text-align:center; font-size: 45
    px;"><b id=ab>about us</b><br><br></h1> <p id=about1>We are a bunch of creative executives aimed at successful completion of the solicit work. Offering customized services at an affordable estimate is our goal. We aim at connecting your emotions through our digital designing.</p><br>
-    <a class="bc" href="" style="text-decoration: none; text-align: center;"><h5><b>To know more &#8594</b></h5></a><br><br>
+    <a class="bc" href="./about.html" style="text-decoration: none; text-align: center;"><h5><b>To know more &#8594</b></h5></a><br><br>
   </div></div>
 </div>
 
@@ -846,9 +859,9 @@ padding-bottom: 3rem !important; */
           <div class="col-sm-7" style="padding-left: 10vw;">
             <div class="card-block" style="padding-bottom: 3vh;">
               <!--           <h4 class="card-title">Small card</h4> -->
-              <h1 class="text-white">boost your brand with our creatives</h1><br>
+              <h1 class="text-white"><b>boost your brand with our creatives</b></h1><br>
               <p class="text-white">Creativity differs, and hence, it is unique. Be it pastels or olives, aesthetic or bright; we deliver the services that suits you the best. We offer a touch of individuality to your brand.</p><br>
-              <a href="#" class="btn btn-light btn-sm" style="border-radius: 20px;">schedule a call</a>
+              <a href="./contact.html" class="btn btn-light btn-sm bc" style="border-radius: 20px;"><strong>schedule a call</strong></a>
             </div>
           </div>
     
@@ -868,7 +881,7 @@ padding-bottom: 3rem !important; */
     <div class="container-fluid px-3 px-sm-5 my-5  text-center">
       <h1 id=h><b style="font-size: 50px; ">services we provide</b></h1><br><br>
       <h4>We aim at Branding and Strategy, Content Marketing, Web Development, Social Media Marketing, Developing smooth UI/UX experience and loads more!</h4><br><br>
-      <a  href="" class="bc" style="text-decoration: none; text-align: center;"><h5><b>To know more &#8594</b></h5></a><br><br>
+      <a  href="./services.html" class="bc" style="text-decoration: none; text-align: center;"><h5><b>To know more &#8594</b></h5></a><br><br>
 
     </div>
   
@@ -906,7 +919,7 @@ padding-bottom: 3rem !important; */
           </div>
         </div>
       </div>
-      <a href="" class= bc style="text-decoration: none;"><h5><b>see all here &#8594</b></h5></a>
+      <a href="./our_works.html" class= bc style="text-decoration: none;"><h5><b>see all here &#8594</b></h5></a>
       </div>
       
         <!-- why us -->
@@ -1049,7 +1062,7 @@ padding-bottom: 3rem !important; */
     <h1><b>want digital marketing services as well?</b></h1>
     <h2><b>don't worry we got you covered !</b></h2>
     <h4 style="padding-top: 2em;" >We didn't rule of your need for digital marketing services. To fulfill your need we haave collaborated with Assam's one of the top digital marketing agency "THE FAALCON".</h4>
-    <a class="pt-5" style="text-decoration: underline; color: #320065" href=""><h5 style="padding-top: 2em;"><b>click here to visit their website</b> </h5></a>
+    <a class="pt-5" style="  color: #320065" href="https://l.instagram.com/?u=http%3A%2F%2Fwww.thefaalcon.com%2F&e=ATPHS0CKiVFZpDhoIw7eYBlCXBbEaXfO_3RaHs7pRMrovEtbHGfG7EgDcZ1E5vo9bGe5Y_pS3zB-6GcfwgYS7w&s=1"><h5 style="padding-top: 2em; "> <strong>click here to visit their website &#8594</strong></h5></a>
   </div>
    
     <img id=fci src="./images/falcon.webp" alt="" srcset="">
@@ -1061,9 +1074,9 @@ padding-bottom: 3rem !important; */
   <div class="footer">
     <div class="column1">
       <ul>
-        <li><a href=""><b class="text-white">CONTACT US</b></a></li>
-        <li><a>+91 6001322174</a></li>
-        <li><a>info@grafiika.com</a></li>
+        <li><a href="./contact.html"><b class="text-white">CONTACT US</b></a></li>
+        <li><a>+91 8811042743</a></li>
+        <li><a>grafiika.info@gmail.com</a></li>
         
       </ul>
     </div>
@@ -1081,10 +1094,10 @@ padding-bottom: 3rem !important; */
     <div class="column3">
       <h1><b  class="text-white">USEFUL LINKS</b></h1>
      
-      <li><a href="">logo design</a></li>
-      <li><a href="">video editing</a></li>
-      <li><a href="">UI/UX design</a></li>
-      <li><a href="">UI/UX design</a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About us</a></li>
+      <li><a href="./our_works.html">Our Works</a></li>
+      <li><a href="./services.html">Services</a></li>
     
     </div>
     <div class="column4">

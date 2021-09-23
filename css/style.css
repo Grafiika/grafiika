@@ -8155,7 +8155,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: outfitBlack;
   color: #000; }
 
 .bg-primary {
@@ -8216,7 +8216,28 @@ textarea.form-control {
   background: #fff; }
 
 .info-wrap {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.8);
+ }
+  @media (min-width:768px) {
+    .info-wrap{
+      border-top-left-radius:20px ; 
+      border-bottom-left-radius:20px; 
+    }
+    .contact-wrap{
+      border-top-right-radius:20px ;
+      border-bottom-right-radius:25px ;
+    }
+  }
+  @media (max-width:767.5px) {
+    .info-wrap{
+      border-bottom-right-radius:20px ; 
+      border-bottom-left-radius:20px; 
+    }
+    .contact-wrap{
+      border-top-left-radius:20px ;
+       border-top-right-radius:20px ;
+    }
+  }
   .info-wrap h3 {
     color: #fff; }
   .info-wrap .dbox {
