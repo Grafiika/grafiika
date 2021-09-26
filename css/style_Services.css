@@ -217,7 +217,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #ecf1f7 url("../img/services\ bg-01.png") center top no-repeat;
+  background: #ecf1f7 url("../img/services-bg-01.webp") center top no-repeat;
   background-size: cover;
   
 }
@@ -286,10 +286,7 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+
 
 .main-nav,
 .main-nav * {
@@ -991,13 +988,16 @@ padding-bottom: 3rem !important; */
 
 @media (max-width: 767px) {
   #intro {
-    height: auto;
-    padding: 80px 0 60px 0;
+    /* width: 100%; */
+    /* height: 100vh; */
+    height: 450px;
+    background-size: cover;
+    
   }
 
-  #intro .container {
+  /* #intro .container {
     height: auto !important;
-  }
+  } */
 
   #intro .intro-img {
     width: 80%;
@@ -1055,4 +1055,31 @@ padding-bottom: 3rem !important; */
 #arrow {
   font-size: 90px;
   font-stretch: extra-expanded;
+}
+@media (max-width: 499px) {
+  #intro {
+    
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+.img-fluid{
+  margin-left: -50px;
+}
+#intro .intro-info h2 {
+  font-size: 34px;
+  margin-bottom: 0px;
+  /* margin-top: 220px; */
+  white-space: inherit;
+  font-family: outfitBlack;
+  text-align: left;
+}
+#intro .intro-info h3 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  white-space: inherit;
+  font-family: outfitBlack;
+  text-align: left;
+}
 }
