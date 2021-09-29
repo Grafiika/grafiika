@@ -8247,6 +8247,7 @@ textarea.form-control {
     .info-wrap .dbox:last-child {
       margin-bottom: 0; }
     .info-wrap .dbox p {
+      margin-top: 10px;
       margin-bottom: 0; }
       .info-wrap .dbox p span {
         font-weight: 500;
