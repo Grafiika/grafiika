@@ -951,7 +951,7 @@ padding-bottom: 3rem !important; */
 @media only screen and (max-width: 576px) {
   .column1,
   .column3 {
-    margin-right: 45px;
+    /* margin-right: 45px; */
     width: 100%;
   }
   @media only screen and (max-width: 360px){
